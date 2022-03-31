@@ -1,0 +1,5 @@
+CREATE TABLE useractions (
+   	username text,
+	actions text,
+    created_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
